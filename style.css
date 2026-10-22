@@ -1,18 +1,24 @@
 h1 {
-  color: #CCCCFF;
+  color: #176B6B;
   margin: 10px;
   padding: 10px;
-  border: 2px #6A0DAD;
+  border: 2px #044a87;
 }
 
 .intro {
   margin: 10px;
   padding: 10px;
-  border: 1px #6A0DAD;
+  border: 1px #035196;
 }
 
 #hero {
   margin: 10px;
   padding: 10px;
-  border: 2px #6A0DAD;
+  border: 2px #035196;
+}
+
+body{
+  background-color: #bdd3d8;
+  font-family: 'Times New Roman', serif;
+  color: #333333;
 }
