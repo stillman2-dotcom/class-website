@@ -2,17 +2,30 @@ h1 {
   color: #CCCCFF;
   margin: 10px;
   padding: 10px;
+<<<<<<< HEAD
   border: 2px #041e65;
+=======
+  border: 2px #6A0DAD;
+>>>>>>> 29a128feb36c3f117d59715691b9df851c28eb6f
 }
 
 .intro {
   margin: 10px;
   padding: 10px;
+<<<<<<< HEAD
   border: 1px #041e65;
+=======
+  border: 1px #6A0DAD;
+>>>>>>> 29a128feb36c3f117d59715691b9df851c28eb6f
 }
 
 #hero {
   margin: 10px;
   padding: 10px;
+<<<<<<< HEAD
   border: 2px #041e65;
 }
+=======
+  border: 2px #6A0DAD;
+}
+>>>>>>> 29a128feb36c3f117d59715691b9df851c28eb6f
