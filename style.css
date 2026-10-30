@@ -23,8 +23,6 @@ body{
   color: #333333;
 }
 
-/* Responsive layout for Homework 2 */
-
 * {
     box-sizing: border-box;
 }
@@ -59,14 +57,12 @@ main > article {
     overflow-wrap: break-word;
 }
 
-/* Tablet layout: 768px and wider */
 @media (min-width: 768px) {
     main {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-/* Desktop layout: 1200px and wider */
 @media (min-width: 1200px) {
     main {
         grid-template-columns: repeat(3, minmax(0, 1fr));
