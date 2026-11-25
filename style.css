@@ -1,26 +1,28 @@
 h1 {
-  color: #176B6B;
-  margin: 10px;
-  padding: 10px;
-  border: 2px #044a87;
+    color: #704477;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #704477;
 }
 
+h2 {
+    color: #704477; 
+}
+ body {
+    background-color: #F8D7E3;
+    font-family: 'Times New Roman', serif;
+    color: #35213B;
+ }
 .intro {
   margin: 10px;
   padding: 10px;
-  border: 1px #035196;
+  border: 1px #704477;
 }
 
 #hero {
   margin: 10px;
   padding: 10px;
-  border: 2px #035196;
-}
-
-body{
-  background-color: #bdd3d8;
-  font-family: 'Times New Roman', serif;
-  color: #333333;
+  border: 2px #704477;
 }
 
 * {
@@ -52,7 +54,7 @@ main > section,
 main > article {
     min-width: 0;
     padding: 20px;
-    border: 1px solid #176B6B;
+    border: 2px solid #704477;
     border-radius: 8px;
     overflow-wrap: break-word;
 }
@@ -67,4 +69,53 @@ main > article {
     main {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+}
+    a {
+    color: #704477;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C2185B;
+}
+
+button {
+    background-color: #C2185B;
+    color: #FFFFFF;
+    border: 2px solid #704477;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#dance-gif {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+#mood-picker {
+    background-image:
+        radial-gradient(circle at 10% 20%, white 0 2px, transparent 3px),
+        radial-gradient(circle at 85% 15%, white 0 2px, transparent 3px),
+        radial-gradient(circle at 70% 75%, white 0 2px, transparent 3px),
+        radial-gradient(circle at 25% 85%, white 0 2px, transparent 3px),
+        linear-gradient(135deg, #ffffff, #bfc0c0, #f8d7e3, #d8b4c8, #ffffff, #a9a9a9);
+
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #704477;
+    border-radius: 12px;
+    color: #35213B;
+}
+#mood-box {
+    background-color: #F8D7E3;
+    color: #35213B;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid #704477;
+    border-radius: 8px;
+    min-height: 30px;
 }
